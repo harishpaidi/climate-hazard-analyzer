@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "rmdir /s /q .next\\cache",
     "start": "next start",
     "lint": "next lint"
   },
