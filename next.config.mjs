@@ -9,6 +9,10 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  experimental: {
+    // Ensures proper tracing of required files only
+    outputFileTracingRoot: __dirname,
+  },
 }
 
-export default nextConfig
+export default nextConfig;
